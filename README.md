@@ -7,12 +7,12 @@
 ### About
 
 
-This a Neighborhood Map project in _[Udacity Frontend Nanodegree Program]_(https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001).
+This a Neighborhood Map project in *[Udacity Frontend Nanodegree Program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)*.
 The project aimed at building a single-page application featuring an area on Google Maps.
 For this project I decided to list down ice-cream shops and cocktail bars in Italy and Croatia. The website lists the locations of my interest and can be filtered out through search bar.
 
 
-The website can be reached at _[Ice-Cream & Cocktail Bar Website]_(https://snehal1791.github.io/Neighborhood-Map/).
+The website can be reached at *[Ice-Cream & Cocktail Bar Website](https://snehal1791.github.io/Neighborhood-Map/)*.
 
 
 The application also made use of Knockout.JS.
