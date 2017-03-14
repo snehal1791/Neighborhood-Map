@@ -73,7 +73,6 @@ function initMap(){
       title: title,
       id: i
     });
-
     /* add click event listener to each marker.
       Marker will BOUNCE according to the change in the event of the marker
     */
@@ -121,13 +120,15 @@ function populateInfoWindow(marker, infowindow) {
 
     // Use of foursquare API to populate info window
     var foursquareUrl = 'https://api.foursquare.com/v2/venues/search?ll=' + marker.position.lat() + ',' + marker.position.lng() + '&client_id=' + clientID + '&client_secret=' + clientSecret + '&v=20161212' ;
+
     $.getJSON(foursquareUrl, function(data){
       // save the response from foursquare
       var foursquareResponse = data.response.venues[0];
+      // Foursquare attribution
+      var foursquareUrl = 'https://foursquare.com/v/' + foursquareResponse.id;
       // add information to info window
-
       infowindow.setContent('<div class="infowindow-box"><div class="infowindow-heading"><strong>Name: <em style="color:blue">' + marker.title+ '</em></strong></div>' +
-        '<div><strong>FourSquare Name: </strong>' + foursquareResponse.name + '</div>' +
+        '<div><strong>FourSquare Link: </strong>' + '<a href="' + foursquareUrl + '">' + foursquareResponse.name + '</a></div>' +
         '<div><strong>Category: </strong>' + foursquareResponse.categories[0].name + '</div>' +
         '<div><strong>Address: </strong>' + foursquareResponse.location.formattedAddress + '</div></div>' );
       // open info window
@@ -148,11 +149,6 @@ function populateInfoWindow(marker, infowindow) {
   else {
     infowindow.close();
   }
-  // close info window if the marker is clicked again
-  // else {
-  //   infowindow.close();
-  // }
-  // https://api.foursquare.com/v2/venues/search?ll=45.433316,12.323822&client_id=Z3LMT4TQ4J0IKMWTELZCAIAA4URF11IR0CRKCF3FC0SMVG52&client_secret=VYYP3AXD23YKSJIVAEFGOLKLEOUWYOSDFKFUKMLLLICXDNAI&v=20161212
 }
 
 // observable data for location variable
