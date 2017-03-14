@@ -12,7 +12,7 @@ The project aimed at building a single-page application featuring an area on Goo
 For this project I decided to list down ice-cream shops and cocktail bars in Italy and Croatia. The website lists the locations of my interest and can be filtered out through search bar.
 
 
-#### **The website can be reached at *[Ice-Cream & Cocktail Bar Website](https://snehal1791.github.io/Neighborhood-Map/)*.**
+### **The website can be reached at *[Ice-Cream & Cocktail Bar Website](https://snehal1791.github.io/Neighborhood-Map/)*.**
 
 
 The application also made use of Knockout.JS.
