@@ -1,10 +1,10 @@
-#Neighborhood-Map
+# Neighborhood-Map
 
 
-##Ice-Cream & Cocktail Bar Map Project
+## _Ice-Cream & Cocktail Bar Map Project_
 
 
-###About
+### About
 
 
 This a Neighborhood Map project in [Udacity Frontend Nanodegree Program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001).
