@@ -13,9 +13,9 @@ For this project I decided to list down ice-cream shops and cocktail bars in Ita
 
 
 ### **The website can be reached at *[Ice-Cream & Cocktail Bar Website](https://snehal1791.github.io/Neighborhood-Map/)*.**
-    - Clone or download repository by visiting this [GitHub](https://github.com/snehal1791/Neighborhood-Map) Account
-    - Id downloading, then extract all the files.
-    - Open index.html on the web browser.
+ - Clone or download repository by visiting this [GitHub](https://github.com/snehal1791/Neighborhood-Map) Account.
+ - Id downloading, then extract all the files.
+ - Open index.html on the web browser.
 
 The application also made use of Knockout.JS
  - The documentation for Knockout can be found [here](http://knockoutjs.com/documentation/introduction.html).
