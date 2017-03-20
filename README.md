@@ -23,7 +23,7 @@ The application also made use of Knockout.JS
 
 
 Gruntfile is being used to generate minified javascript and css files.
- - Grunt is managed via npm the Node.js package manager. Install this (here)[https://nodejs.org/en/].
+ - Grunt is managed via npm the Node.js package manager. Install this [here](https://nodejs.org/en/).
  - Install grunt from [here](https://gruntjs.com/installing-grunt).
  - Configuration of Grunt can be found [here](https://gruntjs.com/configuring-tasks).
  - Next, task creation, click [here](https://gruntjs.com/creating-tasks).
