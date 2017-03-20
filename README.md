@@ -17,12 +17,12 @@ For this project I decided to list down ice-cream shops and cocktail bars in Ita
  - Id downloading, then extract all the files.
  - Open index.html on the web browser.
 
-The application also made use of Knockout.JS
+**The application also made use of Knockout.JS**
  - The documentation for Knockout can be found [here](http://knockoutjs.com/documentation/introduction.html).
  - Download/install instructions for Knockout is [here](http://knockoutjs.com/downloads/index.html).
 
 
-Gruntfile is being used to generate minified javascript and css files.
+**Gruntfile is being used to generate minified javascript and css files.**
  - Grunt is managed via npm the Node.js package manager. Install this [here](https://nodejs.org/en/).
  - Install grunt from [here](https://gruntjs.com/installing-grunt).
  - Configuration of Grunt can be found [here](https://gruntjs.com/configuring-tasks).
